@@ -6,7 +6,7 @@ CREATE TABLE ParkingArea (
     AreaName VARCHAR(255) UNIQUE,
     Location VARCHAR(255),
     TotalSpaces INT
-);
+); 
 
 CREATE TABLE Users (
     UserID INT AUTO_INCREMENT PRIMARY KEY,
